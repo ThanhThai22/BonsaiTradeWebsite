@@ -1,0 +1,164 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(IMG2/bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    width: 400px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    padding-top: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid rgb(66, 71, 83);
+    margin: 30px 0;
+}
+
+form .txt_field:hover{
+    border-bottom: 2px solid var(--primary-color);;
+}
+
+form .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+/* -Giỏ hàng */
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.center1{
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.minhhoahoa{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+table{
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+table tr th{
+    background-color: var(--primary-color);
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+
+tr:nth-child(even) {
+    background-color: var(--Transparent-color-1);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--Transparent-color-2);
+}
+
+.bin{
+    height: 20px;
+    width: 20px;
+    margin: 10%;
+    cursor: pointer;
+}
+
+table tr th{
+    text-align: center;
+}
+/* Thanh Toán */
+
+#main{
+    width: 60%;
+    background-color: var(--Transparent-color-1);
+    margin: 5% auto;
+    border-radius: 5px;
+}
+
+.formtt{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.buttonaccess{
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 11px 13px;
+    display: inline-block;
+    border: none;
+    
+}
+
+.buttonaccess:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: var(--Transparent-color-2);
+}
+
+.tt{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputmakhuyenmai {
+    display: grid;
+    width: 400px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    line-height: normal;
+}
+

@@ -1,0 +1,157 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.15;
+}
+
+#wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.headline{
+    text-align: center;
+    margin: 40px 0px;
+}
+.sp {
+    font-size: 18px;
+    color:aliceblue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    background: var(--primary-color);
+}
+.sp a{
+    font-size: 18px;
+    color:aliceblue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    background: var(--primary-color);
+}
+
+ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.products li{
+    flex-basis: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+ul.products li img{
+    max-width: 200px;
+    height: 200px;
+}
+ul.products li .products-top .products-thumb{
+    display: block;
+}
+ul.products li:hover .products-top .products-thumb img{
+    filter: opacity(80%);
+}
+ul.products li .products-top .products-thumb img{
+    display: block;
+}
+ul.products li .products-top{
+    position: relative;
+    overflow: hidden;
+}
+
+ul.products li .products-top .buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: var(--primary-color-2);
+    color: rgb(0, 31, 31);
+    padding: 10px 0px;
+    position: absolute;
+    width:100%;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+    cursor: pointer;
+    font-weight: 450;
+}
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+}
+
+ul.products li .products-info{
+    display: flex;
+    padding: 10x 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.products li .products-info a{
+    display: block;
+    text-decoration: none;
+}
+a.products-name{
+    color: rgb(217, 79, 79);
+    padding: 3px 0px;
+    text-align: center;
+ 
+}
+.products-price{
+    color: #111;
+    padding: 2px 0px;
+    font-weight: 600;
+}
+.products-add {
+    display: flex;
+    opacity:1;
+    white-space:nowrap;
+    vertical-align:top;
+    padding: 10px 0px;
+
+}
+.products-add .input-qty{
+   display: flex;
+   width: 40px;
+   text-align: center;
+}
+
+/*
+.view-more{
+    font-size: 18px;
+    color:aliceblue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    background: #e3625e;
+    cursor: pointer;
+    text-align: center;
+}
+.view-more:hover{
+    background: #e3625e;
+}
+*/
+
+.picturesize{
+    margin-left: 50px;
+    height: 300px;
+    width: 250px;
+}

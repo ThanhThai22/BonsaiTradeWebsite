@@ -1,0 +1,22 @@
+/* Reset css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none !important;
+}
+/*Chỉnh kiểu chữ không chân*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg{
+    background-color: var(--primary-color-2);
+}
+#header a{
+    color: black;
+    font-weight: 500;
+}
+

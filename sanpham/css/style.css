@@ -1,0 +1,164 @@
+body{
+  transition: background-color .5s;
+}
+.row{
+  height: 100%;
+}
+#map{
+    position:absolute;
+    width:85%;
+    height: 100%;
+    left:25%;
+}
+
+.custom .leaflet-popup-tip,.custom .leaflet-popup-content-wrapper {
+    background: rgb(50, 40, 5);
+    color: #ffffff;
+}
+.sidebar {
+    height: 100%;
+    width: 390px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: #c22222;
+    width: 390px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(243, 235, 235);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:#c22222;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    width: 240px;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: none;
+    color:#0e1011;
+  }
+  
+  .topnav .search-container button {
+    width: 50px;
+    float: right;
+    padding: 8px ;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #c22222;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #782020;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  .fa-solid, .fa-magnifying-glass{
+    font-size: 23px;
+    color:#ffffff;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:powderblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .account-bar{
+    height: 200px;
+    width: 100px;
+  }
+.local{
+  padding: 25px 50px 75px 25px;
+  height: 50px;
+  width: 390px;
+  background-color: #dbe1e3;
+  font-size: 18px;
+}
+body {font-family:Arial, Sans-Serif;}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {color:#0067ab; text-decoration:none;}
+a:hover {text-decoration:underline;}
+.form{width: 300px; margin: 0 auto;}
+input[type='text'], input[type='email'], input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 10px; color: #333; font-size: 14px; margin-top: 10px;}
+input[type='submit']{padding: 10px 25px 8px; color: #fff; background-color: #0067ab; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; border: 1px solid #0164a5; border-radius: 2px; margin-top: 10px; cursor:pointer;}
+input[type='submit']:hover {background-color: #024978;}

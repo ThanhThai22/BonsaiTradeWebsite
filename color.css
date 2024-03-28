@@ -1,0 +1,9 @@
+:root{
+    --primary-color: rgb(144, 128, 129);
+    --primary-color-2: rgb(196, 192, 192);
+    ---primary-color-3: rgb(73, 70, 70);
+
+
+    --Transparent-color-1: rgba(255, 255, 255, 0.8);
+    --Transparent-color-2: rgba(251, 196, 198, 0.7);
+}

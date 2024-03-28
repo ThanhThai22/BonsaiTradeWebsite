@@ -1,0 +1,106 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none !important;
+}
+/*Phần chân trangg*/
+footer{
+    background-color: #000;
+}
+footer .step{
+    background-color: #fff;
+    width: 100%;
+}
+
+.picture {
+    display: flex;
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;
+    border: solid 1px var(--primary-color-2);
+    background: var(--primary-color-2);
+    border-radius: 50%;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.service {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 36px;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+}
+.content_service {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #898989;
+    display: block;
+    text-align: center;
+}
+
+
+
+/* css tiêu đề chân trang */ 
+.white {
+    position: relative;
+    padding:  0 10px 20px;
+    margin: 0;
+    color:#fff;
+    height: 15%;
+    margin-top: 20%;
+}
+/* css nội dung chân trang*/
+.gray{
+    position: relative;
+    padding:  0 5px 10px;
+    margin: 0;
+    color: #868283;
+    width: 100%;
+}
+
+.gray .tintuc{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* css bản quyền và trang cá nhân*/
+.bq{
+    position: relative;
+    padding:  0 10px 20px;
+    margin: 0;
+    color: aqua;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    cursor: pointer;
+}
+.connect{
+    position: relative;
+    padding:  0 15px 30px;
+    margin: 0;
+    color: aqua;
+    margin-right: 1rem;
+    margin-left: auto;
+    width: 50%;
+    height: 50%;
+    font-size:x-large; 
+ 
+}
+
+/*Mũi tên top*/
+ .gotop
+{
+	position: fixed;
+	bottom: 5px;
+	right:10px;
+	z-index:100;	
+    
+}
